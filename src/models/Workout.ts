@@ -11,6 +11,8 @@ const SetSchema = new mongoose.Schema({
 	'reps': Number,
 	'weight': Number,
 	'holdTime': Number,
+	'distance': {'distance': Number, 'unit': String},
+	'time': Number
 })
 
 const WorkoutSchema = new mongoose.Schema({
